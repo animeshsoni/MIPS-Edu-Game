@@ -6,7 +6,9 @@ Authors: Hanzhang Bai, Sai Cao, Xiang Li, Tianyu Cao
 
 Last updated on 05 March 2019
 
-Website: http://hbai.me/sprint1
+Website: http://hbai.me/sprint2
+
+Trello board: http://hbai.me/trello
 
 # Release Note
 
