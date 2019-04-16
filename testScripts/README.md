@@ -2,7 +2,10 @@
 
 Author: Hanzhang Bai and Sai Cao
 
-Updated on 03 March 2019
+Updated on 15 March 2019
+
+Licensed under MIT licence
+
 
 ## Writing your first test case
 1. Export your test class, function, or varibles in the file. 
@@ -21,13 +24,15 @@ module.exports=Foo;
 var Foo= require(path to your test class): 
 ```
 
-3. Start test in the project index with npm test 
+3. Start test in the project index with `npm test` 
 
--> You can modify the scirpt attribute in `package.json` to change script run by npm test. 
+-> You can modify the scirpt attribute in `package.json` to change script run by `npm test`. 
 
 # Getting Started on Mocha Unit Test
 
-Please notice: Even though you can debug it on any platform and using any browsers, I suggest you use Google Chrome with automatic update enabled. For the backend, use `mocha` for now unless otherwise stated.
+Please notice: Even though you can debug it on any platform and using any browsers, I suggest you use `Google Chrome` with automatic update enabled. For the backend, use `mocha` for now unless otherwise stated.
+
+We also need to fix a problem introduced by `Safari` on both iOS and all browsers on iOS as well since Apple does not allow any customised rendering engine(aka kernel)
 
 I suggest you run a system check before start debugging this project. I will update these scripts when dependencies changes.
 
@@ -58,3 +63,10 @@ If you are root, run with `./install.sh` instead
 
 Unlike Linux OSes, it will install `brew` instead as a pre-requisite. 
 
+# Debugging my C++ programs
+
+Definitely run `debug.sh` first, since that's where my unit tests are.
+
+### Machine setup
+
+Ubuntu 18.04 LTS with default `g++`

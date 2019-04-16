@@ -1,3 +1,4 @@
 *.log
+*.conf
 **/node_modules/
 sth/
